@@ -32,7 +32,6 @@ function BookCar() {
                       <option value="">Nashik</option>
                       <option value="">Lonavala</option>
                       <option value="">Mahabaleshwar</option>
-                      <option value="">VW Golf 6</option>
                       <option value="">Matheran</option>
                     </select>
                 </div>
@@ -44,7 +43,6 @@ function BookCar() {
                       <option value="">Nashik</option>
                       <option value="">Lonavala</option>
                       <option value="">Mahabaleshwar</option>
-                      <option value="">VW Golf 6</option>
                       <option value="">Matheran</option>
                     </select>
                 </div>
