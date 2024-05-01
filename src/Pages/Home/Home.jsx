@@ -4,7 +4,7 @@ import bgCar from '../../Images/hero-bgpng.png'
 import PlanTrip from '../../Components/PlanTrip'
 import BookCar from '../../Components/BookCar'
 
-function Hero() {
+function Home() {
   return (
    <>
     <div className='h-screen w-full flex overflow-hidden'>
@@ -29,4 +29,4 @@ function Hero() {
   )
 }
 
-export default Hero
+export default Home
