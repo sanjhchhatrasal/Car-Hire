@@ -7,10 +7,10 @@ import BookCar from '../../Components/BookCar'
 function Hero() {
   return (
    <>
-    <div className='h-screen w-full flex'>
+    <div className='h-screen w-full flex overflow-hidden'>
         <div className='md:w-[50%] h-full w-[100%] text-center md:text-left lg:pt-28 pt-20 md:pt-14 md:pl-24 pl-10'>
             <h6 className='text-xl font-bold'>Map out your travel now</h6>
-            <h1 className='text-5xl font-bold sm:w-[75%] lg:w-[85%] md:w-[95%] w-[90%] pl-14 md:pl-0 mt-8 leading-12'>Unlock great <span className='text-blue-700'>savings</span> on car hires</h1>
+            <h1 className='text-5xl font-bold sm:w-[75%] lg:w-[85%] md:w-[95%] w-[100%] pl-0 md:pl-0 mt-8 leading-12'>Unlock great <span className='text-blue-700'>savings</span> on car hires</h1>
             <p className='text-lg lg:w-[80%] w-[90%] text-slate-500 mt-8'>Drive your dream car with unbeatable rates, unlimited miles, flexible pickup choices, and more!</p>
             <button className='py-4 px-8 bg-blue-600 text-lg font-semibold text-white rounded-xl mt-20 hover:bg-blue-900'>Book Ride</button>
         </div>
