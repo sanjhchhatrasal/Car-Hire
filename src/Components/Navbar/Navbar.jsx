@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 function Navbar() {
-  const [navbar, setNavbar] = useState(true)
+  const [navbar, setNavbar] = useState(true);
 
   const handleNavlinkClick = () =>{
     setNavbar(false)
