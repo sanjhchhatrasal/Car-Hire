@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 function Navbar() {
-  const [navbar, setNavbar] = useState(true);
+  const [navbar, setNavbar] = useState(false);
 
   const handleNavlinkClick = () =>{
     setNavbar(false)
@@ -19,7 +19,7 @@ function Navbar() {
     <div className='h-24 w-full relative bg-yellow-300 flex items-center justify-between md:px-10 z-[9999]'>
         <div className={`flex items-center cursor-pointer`}>
             <img className='md:w-[9vw] w-[20vw]' src={logo} alt="Car Hire Logo" />
-            <h1 className='text-3xl font-semibold'>Car  <span className='text-blue-900'>Hire</span></h1>
+            <h1 className='text-3xl font-bold'>Car <br /> <span className='text-blue-900'>Hire</span></h1>
         </div>
 
         <div className={`lg:flex hidden items-center md:gap-10 gap-2 text-lg font-semibold`}>

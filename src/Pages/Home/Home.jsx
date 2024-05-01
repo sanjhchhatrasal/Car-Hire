@@ -3,6 +3,7 @@ import mainCar from '../../Images/home-page-car.png'
 import bgCar from '../../Images/hero-bgpng.png'
 import PlanTrip from '../../Components/PlanTrip'
 import BookCar from '../../Components/BookCar'
+import PickCar from '../../Components/PickCar'
 
 function Home() {
   return (
@@ -25,6 +26,7 @@ function Home() {
     </div>
     <PlanTrip />
     <BookCar />
+    <PickCar />
     </>
   )
 }
