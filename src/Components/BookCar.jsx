@@ -15,7 +15,7 @@ function BookCar() {
                 <div className="h-24">
                     <h6 className='flex items-center gap-2 text-lg font-semibold'> <span><FaCarSide/> </span> Choose Your Car Type <span className='text-red-600'>*</span></h6>
                     <select className='py-2 md:px-24 px-16 mt-4 border-zinc-300 border outline-none text-zinc-500' name="" id="">
-                      <option value="" disabled>Select your car type</option>
+                      <option value="">Select your car type</option>
                       <option value="">Toyota Camry</option>
                       <option value="">Mercedes-Benz</option>
                       <option value="">Vw Passat CC</option>
@@ -27,7 +27,7 @@ function BookCar() {
                 <div className="h-24">
                     <h6 className='flex items-center gap-1 text-lg font-semibold'><span><ImLocation/> </span> Select Pick-up Location  <span className='text-red-600'>*</span></h6>
                     <select className='py-2 md:px-16 px-9 mt-4 border-zinc-300 border outline-none text-zinc-500' name="" id="">
-                    <option value="" disabled>Select your pick-up location</option>
+                    <option value="">Select your pick-up location</option>
                       <option value="">Pune</option>
                       <option value="">Nashik</option>
                       <option value="">Lonavala</option>
@@ -39,7 +39,7 @@ function BookCar() {
                 <div className="h-24">
                     <h6 className='flex items-center gap-1 text-lg font-semibold'><span><ImLocation/> </span> Choose Drop-off Location  <span className='text-red-600'>*</span></h6>
                     <select className='py-2 md:px-16 px-9  mt-4 border-zinc-300 border  outline-none text-zinc-500' name="" id="">
-                    <option value="" disabled>Select your pick-up location</option>
+                    <option value="">Select your pick-up location</option>
                     <option value="">Pune</option>
                       <option value="">Nashik</option>
                       <option value="">Lonavala</option>
