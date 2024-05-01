@@ -11,7 +11,7 @@ function PickCar() {
       };
     
       const coloringButton = (id) => {
-        return colorBtn === id ? "colored-button" : "";
+        return colorBtn === id ? "colored-button" : "bg-zinc-400";
       };
   return (
     <div className='h-screen w-full flex items-center justify-center'>
