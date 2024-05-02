@@ -3,16 +3,17 @@ import CarBox from './CarBox';
 import { CAR_DATA  } from './CarData';
 
 function PickCar() {
-    const [active, setActive] = useState("SecondCar")
-    const [colorBtn, setColorBtn] = useState("btn1")
+    const [active, setActive] = useState("FirstCar")
+     const [colorBtn, setColorBtn] = useState("btn1")
 
     const btnID = (id) => {
         setColorBtn(colorBtn === id ? "" : id);
       };
     
       const coloringButton = (id) => {
-        return colorBtn === id ? "colored-button" : "bg-zinc-400";
+        return colorBtn === id ? "colored-button bg-blue-500" : "bg-zinc-400";
       };
+
   return (
     <div className='h-screen w-full flex items-center justify-center'>
         <div className='h-[95%] w-[90%]'>
@@ -24,9 +25,11 @@ function PickCar() {
             <div className='flex flex-col gap-2 h-96 w-72 absolute left-28'>
                 <button  
                 className={`py-4 px-20 bg-zinc-400 text-white font-semibold text-lg cursor-pointer hover:bg-blue-500 ${coloringButton("btn1")}`}
-                 onClick={() => {
-                    setActive("FirstCar"); btnID("btn1");
-                }} >Mercedes-Benz
+                  onClick={() => {
+                    setActive("FirstCar"); 
+                    btnID("btn1");
+                   }}
+                 >Mercedes-Benz
                 </button>
                 <button  
                 className={`py-4 px-20 bg-zinc-400 text-white font-semibold text-lg cursor-pointer hover:bg-blue-500 ${coloringButton("btn2")}`}
