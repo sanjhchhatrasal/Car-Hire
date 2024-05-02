@@ -4,6 +4,7 @@ import bgCar from '../../Images/hero-bgpng.png'
 import PlanTrip from '../../Components/PlanTrip'
 import BookCar from '../../Components/BookCar'
 import PickCar from '../../Components/PickCar'
+import ChooseUs from '../../Components/ChooseUs'
 
 function Home() {
   return (
@@ -27,6 +28,7 @@ function Home() {
     <PlanTrip />
     <BookCar />
     <PickCar />
+    <ChooseUs />
     </>
   )
 }
