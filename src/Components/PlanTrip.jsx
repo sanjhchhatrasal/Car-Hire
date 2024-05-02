@@ -6,7 +6,7 @@ import selectCar from '../Images/select-car.jpg'
 function PlanTrip() {
   return (
     <div className='  xl:h-[100vh] md:h-[160vh] h-[170vh] w-full relative'>
-       <div className="md:h-56 h-60 lg:w-[65vw] md:w-[80vw] w-[100vw] bg-yellow-50 rounded-3xl absolute md:-top-20 -top-20 lg:left-48 md:left-24 left-0 shadow-lg shadow-blue-300">
+       <div className="md:h-56 h-60 lg:w-[65vw] md:w-[80vw] w-[100vw] bg-yellow-50 rounded-3xl absolute md:-top-10 -top-12 lg:left-48 md:left-24 left-0 shadow-lg shadow-blue-300">
        <h6 className='lg:text-2xl md:text-xl text-xl font-bold text-center mt-10'>Start planning your trip now.</h6>
         <h1 className='lg:text-5xl md:text-4xl text-3xl font-bold text-center mt-8'>Fast and Convenient Car Rentals</h1>
        </div>
