@@ -22,7 +22,7 @@ function PickCar() {
                 <h1 className='text-4xl font-bold mt-5'>Rental Fleet Collection</h1>
                 <p className='text-zinc-400 mt-5'>Select from Our Exceptional Rental Fleet for Your Next Adventure or Business Journey</p>
             </div>
-            <div className='flex flex-col gap-2 lg:h-96 lg:w-72 md:h-[28rem] md:w-[40rem] w-[18rem] absolute md:left-28 left-8 md:-mt-0 -mt-28'>
+            <div className='flex flex-col gap-2 lg:h-96 lg:w-72 md:h-[28rem] md:w-[40rem] w-[18rem] absolute md:left-28 left-8 md:-mt-0 -mt-10'>
                 <button  
                 className={`py-4 px-20 bg-blue-500 text-white font-semibold text-lg cursor-pointer hover:bg-blue-500 ${coloringButton("btn1")}`}
                   onClick={() => {
