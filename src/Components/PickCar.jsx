@@ -11,7 +11,7 @@ function PickCar() {
       };
     
       const coloringButton = (id) => {
-        return colorBtn === id ? "colored-button bg-blue-500" : "bg-zinc-400";
+        return colorBtn === id ? "colored-button" : "bg-zinc-500";
       };
 
   return (
@@ -24,7 +24,7 @@ function PickCar() {
             </div>
             <div className='flex flex-col gap-2 h-96 w-72 absolute left-28'>
                 <button  
-                className={`py-4 px-20 bg-zinc-400 text-white font-semibold text-lg cursor-pointer hover:bg-blue-500 ${coloringButton("btn1")}`}
+                className={`py-4 px-20 bg-blue-500 text-white font-semibold text-lg cursor-pointer hover:bg-blue-500 ${coloringButton("btn1")}`}
                   onClick={() => {
                     setActive("FirstCar"); 
                     btnID("btn1");
@@ -32,35 +32,35 @@ function PickCar() {
                  >Mercedes-Benz
                 </button>
                 <button  
-                className={`py-4 px-20 bg-zinc-400 text-white font-semibold text-lg cursor-pointer hover:bg-blue-500 ${coloringButton("btn2")}`}
+                className={`py-4 px-20 bg-blue-500 text-white font-semibold text-lg cursor-pointer hover:bg-blue-500 ${coloringButton("btn2")}`}
                 id='btn2'
                 onClick={() => {
                     setActive("SecondCar");
                      btnID("btn2");
                 }}
                 >Toyota Camry</button>
-                <button  className={`py-4 px-20 bg-zinc-400 text-white font-semibold text-lg cursor-pointer hover:bg-blue-500 ${coloringButton("btn3")}`}
+                <button  className={`py-4 px-20 bg-blue-500 text-white font-semibold text-lg cursor-pointer hover:bg-blue-500 ${coloringButton("btn3")}`}
                  id='btn3'
                  onClick={() => {
                     setActive("ThirdCar"); btnID("btn3");
                 }}
                 >
                     Audi A1 S-Line</button>
-                <button  className={`py-4 px-20 bg-zinc-400 text-white font-semibold text-lg cursor-pointer hover:bg-blue-500 ${coloringButton("btn4")}`}
+                <button  className={`py-4 px-20 bg-blue-500 text-white font-semibold text-lg cursor-pointer hover:bg-blue-500 ${coloringButton("btn4")}`}
                 id='btn4'
                 onClick={() => {
                     setActive("FourthCar"); btnID("btn4");
                 }}
                 >
                     VW Golf</button>
-                <button  className={`py-4 px-20 bg-zinc-400 text-white font-semibold text-lg cursor-pointer hover:bg-blue-500 ${coloringButton("btn5")}`}
+                <button  className={`py-4 px-20 bg-blue-500 text-white font-semibold text-lg cursor-pointer hover:bg-blue-500 ${coloringButton("btn5")}`}
                  id='btn5'
                  onClick={() => {
                     setActive("FifthCar"); btnID("btn5");
                 }}
                 >
                     VW Passat CC</button>
-                <button  className={`py-4 px-20 bg-zinc-400 text-white font-semibold text-lg cursor-pointer hover:bg-blue-500 ${coloringButton("btn6")}`}
+                <button  className={`py-4 px-20 bg-blue-500 text-white font-semibold text-lg cursor-pointer hover:bg-blue-500 ${coloringButton("btn6")}`}
                 id='btn6'
                 onClick={() => {
                     setActive("SixthCar"); btnID("btn6");
