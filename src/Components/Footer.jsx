@@ -6,7 +6,7 @@ function Footer() {
        <div className='w-full h-[90%] flex justify-evenly'>
        <div className='h-full w-[30%] py-10'>
           <h1 className='text-3xl mb-5'><span className='font-bold'>CAR </span> Hire</h1>
-          <p className='text-[1rem] text-zinc-500 w-[90%]'>We provide an extensive selection of vehicles tailored to suit your driving requirements. Whatever your needs may be, we have the ideal car waiting for you.</p>
+          <p className='text-[1rem] text-zinc-500 w-[75%]'>We provide an extensive selection of vehicles tailored to suit your driving requirements. Whatever your needs may be, we have the ideal car waiting for you.</p>
           <h6 className='text-md font-semibold mt-10'>[123] - 456-789</h6>
         </div>
         <div className='h-full w-[30%] py-10'>
