@@ -36,7 +36,7 @@ function PlanTrip() {
           <div className="lg:h-96 md:h-80 w-96 ">
           <div className="h-[50%] w-full">
                 <div className='h-[80%] w-[60%]'>
-                <img className='sm:w-[20vw] w-full h-full object-cover lg:ml-16 md:ml-28 sm:ml-36' src={drive} alt="" />
+                <img className='sm:w-[20vw] w-full h-full object-cover lg:ml-16 md:ml-28 sm:ml-36 ml-20' src={drive} alt="" />
                 </div>
               </div>
                 <div>
