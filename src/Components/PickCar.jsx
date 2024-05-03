@@ -15,7 +15,7 @@ function PickCar() {
       };
 
   return (
-    <div className='md:h-screen w-full h-[150vh] flex md:flex-row flex-col items-center justify-center bg-sky-500 mt-28'>
+    <div className='md:h-screen w-full h-[150vh] flex md:flex-row flex-col items-center justify-center mt-28'>
         <div className='h-[95%] w-[90%]'>
             <div className="h-[30%] w-full  text-center">
                 <h6 className='text-2xl font-semibold '>Curated Vehicle Models</h6>
