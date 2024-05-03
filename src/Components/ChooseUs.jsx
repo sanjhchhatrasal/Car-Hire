@@ -9,10 +9,10 @@ function ChooseUs() {
         <div className='lg:w-[50%] lg:h-[100%] w-full h-[50%] lg:pl-48 lg:px-0 md:px-52 lg:text-left text-center'>
             <h6 className='text-2xl  font-semibold sm:mb-8 mb-5'>Cutting-edge Solutions, Trusted Service</h6>
             <h1 className='text-[2.5rem] font-bold sm:mb-10 mb-6 leading-tight'>Discover exceptional value with our unbeatable deals.</h1>
-            <p className='text-md text-zinc-400 lg:w-[75%] md:w-[100%] mb-16 lg:ml-0'>Explore unparalleled deals with our exceptional offers. Our commitment to value ensures top-tier services and products within budget. Don't miss our premium rentals designed for your savings and satisfaction.</p>
+            <p className='text-md text-zinc-400 lg:w-[75%] w-[100%] mb-16 lg:ml-0'>Explore unparalleled deals with our exceptional offers. Our commitment to value ensures top-tier services and products within budget. Don't miss our premium rentals designed for your savings and satisfaction.</p>
             <a href="" className='text-lg bg-cyan-600 text-white py-4 px-7 rounded-md'>Explore More</a>
         </div>
-        <div className='lg:w-[50%] lg:h-[100%] md:w-full h-[50%] lg:px-20 md:px-48 md:bg-pink-400 lg:text-left text-center md:pt-0 sm:pt-20 -mt-16'>
+        <div className='lg:w-[50%] lg:h-[100%] md:w-full h-[50%] lg:px-20 md:px-48 lg:text-left text-center md:pt-0 sm:pt-20 -mt-16'>
           <div className='lg:h-[22%] w-full md:h-[30%]  sm:mb-5 flex sm:flex-row flex-col items-center mb-10 overflow-hidden rounded-xl'>
             <div className='h-full w-[30%] sm:mr-5 sm:mb-0 mb-3'>
               <img className='h-full w-full object-cover' src={car} alt="" />
