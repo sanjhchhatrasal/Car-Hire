@@ -13,8 +13,8 @@ function PlanTrip() {
        <div className="lg:h-[70%] md:h-[100vh] h-[130vh] w-full absolute xl:top-76 lg:top-80 md:top-64 top-52 flex md:flex-row flex-shrink-0 flex-wrap items-center justify-center lg:gap-14 md:gap-0">
           <div className="lg:h-96 md:h-80 w-96 ">
               <div className="h-[50%] w-full">
-                <div className='h-[80%] w-[60%]'>
-                <img className='w-[20vw] object-cover md:ml-24 ml-36' src={selectCar} alt="" />
+                <div className='h-[80%] w-[60%] text-center'>
+                <img className='sm:w-[20vw] h-full w-full object-cover md:ml-24 sm:ml-36 ml-20' src={selectCar} alt="" />
                 </div>
               </div>
                 <div>
@@ -25,7 +25,7 @@ function PlanTrip() {
           <div className="lg:h-96 md:h-80 w-96 ">
           <div className="h-[50%] w-full">
                 <div className='md:h-[80%] w-[30%] md:w-[60%]'>
-                <img className='w-full h-full  object-cover md:ml-20 ml-36' src={operator} alt="" />
+                <img className='w-full h-full  object-cover md:ml-20 sm:ml-36 ml-32' src={operator} alt="" />
                 </div>
               </div>
                 <div>
@@ -36,7 +36,7 @@ function PlanTrip() {
           <div className="lg:h-96 md:h-80 w-96 ">
           <div className="h-[50%] w-full">
                 <div className='h-[80%] w-[60%]'>
-                <img className='w-[20vw] object-cover lg:ml-16 md:ml-28 ml-36' src={drive} alt="" />
+                <img className='sm:w-[20vw] w-full h-full object-cover lg:ml-16 md:ml-28 sm:ml-36' src={drive} alt="" />
                 </div>
               </div>
                 <div>
