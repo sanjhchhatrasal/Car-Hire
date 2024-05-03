@@ -6,7 +6,7 @@ function CarBox({ data, carID }) {
   return (
     <>
       {data[carID].map((car, id) => (
-        <div key={id} className="relative lg:h-[66vh] lg:w-[80%] md:h-[60vh] h-[110vh] w-[100%] lg:left-80 md:left-0 flex lg:flex-row flex-col items-center justify-between lg:top-0 md:top-[27rem] top-[20rem]">
+        <div key={id} className="relative lg:h-[66vh] lg:w-[80%] md:h-[60vh] h-[110vh] w-[100%] lg:left-80 md:left-0 flex lg:flex-row flex-col items-center justify-between lg:top-0 md:top-[27rem] top-[22rem]">
           
           <div className="pick-car absolute lg:left-10 md:left-5 md:top-16 top-20">
             {carLoad && <span className="loader"></span>}
