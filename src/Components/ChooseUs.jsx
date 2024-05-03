@@ -5,7 +5,7 @@ import coinHand from '../Images/chooseus-coin-hand.jpg';
 
 function ChooseUs() {
   return (
-    <div className='lg:h-screen md:h-[140vh] sm:h-[150vh] h-[220vh] xl:bg-yellow-800 lg:bg-orange-700 md:bg-yellow-500 sm:bg-red-200 bg-blue-200 mt-96 border-orange-300 w-full flex lg:flex-row flex-col pt-20 md:px-0 px-10'>
+    <div className='lg:h-screen md:h-[140vh] sm:h-[150vh] h-[220vh] mt-96 border-orange-300 w-full flex lg:flex-row flex-col pt-20 md:px-0 px-10'>
         <div className='lg:w-[50%] lg:h-[100%] w-full h-[50%] lg:pl-48 lg:px-0 md:px-52 lg:text-left text-center'>
             <h6 className='text-2xl  font-semibold sm:mb-8 mb-5'>Cutting-edge Solutions, Trusted Service</h6>
             <h1 className='text-[2.5rem] font-bold sm:mb-10 mb-6 leading-tight'>Discover exceptional value with our unbeatable deals.</h1>
