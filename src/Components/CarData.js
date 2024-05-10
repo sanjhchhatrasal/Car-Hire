@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Audi from '../Images/audi.jpg';
 import Golf from '../Images/Golf.jpg';
 import Mercedes from '../Images/Mercedes.jpg';
