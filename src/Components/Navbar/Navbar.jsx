@@ -26,8 +26,8 @@ function Navbar() {
             <NavLink to='/' activeClassName="active" className="nav-link">Home</NavLink>
             <NavLink to='/about' activeClassName="active" className="nav-link">About</NavLink>
             <NavLink to='/contact' activeClassName="active" className="nav-link">Contact</NavLink>
-            <NavLink to='/model' activeClassName="active" className="nav-link">Models</NavLink>
-            <NavLink to='/ourteam' activeClassName="active" className="nav-link">Our Team</NavLink>
+            <NavLink to='/models' activeClassName="active" className="nav-link">Models</NavLink>
+            <NavLink to='/team' activeClassName="active" className="nav-link">Our Team</NavLink>
         </div>
         <div className="p-1 lg:flex hidden gap-1">
             <button className='px-4 py-2 rounded-lg text-white bg-blue-600 font-semibold text-lg mr-4 hover:shadow-md  hover:shadow-blue-200'>Sign In</button>
