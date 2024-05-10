@@ -17,10 +17,10 @@ function Navbar() {
 
   return (
     <div className='h-24 w-full fixed bg-white shadow-lg shadow-zinc-200 flex items-center justify-between md:px-10 z-[9999]'>
-        <div className={`flex items-center cursor-pointer`}>
+        <NavLink to="/" className={`flex items-center cursor-pointer`}>
             <img className='md:w-[9vw] w-[20vw]' src={logo} alt="Car Hire Logo" />
             <h1 className='text-3xl font-bold'>Car <br /> <span className='text-blue-900'>Hire</span></h1>
-        </div>
+        </NavLink>
 
         <div className={`lg:flex hidden items-center md:gap-10 gap-2 text-lg font-semibold`}>
             <NavLink to='/' activeClassName="active" className="nav-link">Home</NavLink>
