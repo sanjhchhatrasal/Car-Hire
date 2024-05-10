@@ -5,12 +5,14 @@ import './index.css'
 import { Route, createBrowserRouter, RouterProvider, createRoutesFromElements } from 'react-router-dom'
 import Home from './Pages/Home/Home.jsx'
 import About from './Pages/About/About.jsx'
+import Contact from './Pages/Contact/Contact.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />} > 
-    <Route path='/' element={<Home />} />
-    <Route path='about' element={<About />} />
+     <Route path='/' element={<Home />} />
+     <Route path='about' element={<About />} />
+     <Route path='contact' element={<Contact />} />
     </Route>
   )
 )
