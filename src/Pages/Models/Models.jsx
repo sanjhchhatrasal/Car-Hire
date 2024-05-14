@@ -2,7 +2,9 @@ import React from 'react'
 
 function Models() {
   return (
-    <div className='w-full h-screen bg-cyan-700 color-black'>Models</div>
+    <div className='w-full h-screen bg-cyan-700 color-black'>
+      <h1>This is the model page</h1>
+    </div>
   )
 }
 
