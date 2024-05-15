@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div>Hero</div>
+    <div className='h-screen w-full bg-sky-200'>Hero</div>
   )
 }
 
